@@ -1,0 +1,10 @@
+#+title: SSH Setup
+
+This repo is a competent of my dotfiles installer; it runs through and sets up the prerequisites that installer requires before continuing the installation.
+
+The important detail is to not forget to source the script with the following command in the terminal:
+#+begin_src sh
+source ./setup.sh
+#+end_src
+
+This is important because the environment variables it exports will not save once the script finishes running!!
